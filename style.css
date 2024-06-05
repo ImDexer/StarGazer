@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+main {
+    color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(17, 17, 17, 0.514);
+}
+
+header img {
+    width: 100px;
+    display: flex;
+    padding: 2px;
+    margin: 0 0 0 40px;
+}
+
+.click {
+    font-size: 25px;
+    font-family: "Ubuntu Sans", sans-serif;
+    margin: 18px 40px 0 0;
+    padding: 0 10px 0 0;
+}
+
+header a {
+    color: rgb(135, 75, 233);
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li {
+    margin: 0 0 0 20px;
+}
+
+.intro h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 45px;
+    font-family: 'Ubuntu Sans'; 
+    margin: 0 0 15px 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 0 0 0;
+    font-size: 18px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 180px 0 0 0;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.info img {
+    width: 150px;
+    align-items: center;
+    border-radius: 100%;
+    border-style: dotted;
+    margin: 0 0 25px 0;
+    padding: 10px;
+}
+
+.info h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#novedades h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0 0 0;
+    font-family: 'Ubuntu sans';
+    font-size: 40px;
+}
+
+.contenido_noticias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 0 0 0;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.noticia {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.noticia a {
+    text-decoration: none;
+    color: #7087cc;
+}
+
+.texto_not {
+    background-color: #2d3a55;
+    padding: 5px;
+}
+
+.texto_not span {
+    font-size: 11px;
+    color: #8c8c96;
+}
+
+.noticia img {
+    width: 400px;
+}
+
+#calendario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+}
+
+#calendario h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Ubuntu Sans';
+    margin: 0 0 40px 0;
+}
+
+#calendario p {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.tabla {
+    display: grid;
+    grid-template-columns: repeat(7, 110px);
+    gap: 5px;
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+  
+.dia, .fecha, .blank {
+    background-color: #1d212b;
+    border: 1px solid #2a2e36;
+    padding: 10px;
+    text-align: center;
+  }
+  
+.dia {
+    font-weight: bold;
+    color: white;
+    background-color: #151925;
+  }
+  
+.fecha {
+    position: relative;
+    color: white;
+  }
+  
+.fecha span {
+    display: block;
+    font-size: 0.8em;
+    color: #eeeeee;
+    margin-top: 5px;
+  }
+  
+.blank {
+    background-color: transparent;
+    border: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30px 0 30px;
+    color: #8c8c96;
+    background-color: #151925;
+}
